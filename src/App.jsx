@@ -1,6 +1,6 @@
 import MainCalc from "./components/MainCalc";
 
-const LOGO_URL = "investment-calculator-logo.png";
+const LOGO_URL = "src/assets/investment-calculator-logo.png";
 
 function App() {
   return (

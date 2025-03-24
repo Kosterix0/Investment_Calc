@@ -52,7 +52,7 @@ export default function MainCalc() {
             />
           </div>
           <div className="input-pair">
-            <label>Duration</label>
+            <label>DURATION</label>
             <input
               name="duration"
               type="number"
