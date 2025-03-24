@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+  height: 100vh;
+  overflow: hidden;
+  background: radial-gradient(circle, rgb(1, 24, 29) 0%, rgb(0, 4, 3) 100%);
+}
+
+.logo {
+  width: 100%;
+  min-height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+body {
+  overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(circle, rgb(1, 24, 29) 0%, rgb(0, 4, 3) 100%);
+
+}
+
+.title {
+  font-size: 30px;
+  color: white;
+  font-weight: normal;
+}
+
+#imagetitle {
+  width: 120px;
+  height: 120px;
+}
+
+.calculator {
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #0a714f, #09433d);
+  width: 80vmin;
+  min-height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  align-items: stretch;
+
+}
+
+.input-group {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+.input-pair {
+  gap: 8px;
+  font-size: 12px;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.input-pair input {
+  padding-left: 0.5rem;
+  border: 1px solid rgb(191, 234, 200);
+  border-radius: 5px;
+  width: 100%;
+  height: 30%;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+}
+
+.input-pair label {
+  font-size: 12px;
+  color: white;
+}
+
+.input-pair input::placeholder {
+  color: white;
+}
+
+#table-container {
+  max-height: 35%;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  width: 65vmin;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+table th {
+  color: #2eb688;
+  font-size: 14px;
+}
+
+table td {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
